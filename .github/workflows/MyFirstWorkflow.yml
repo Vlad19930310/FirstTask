@@ -4,6 +4,7 @@ name: MyFirstAction
 env: 
   DEPlOY_VER    : "${{ github.sha }}"
   YEAR          : "2022"
+
 on:
   push:
     branches: [ "master" ]
@@ -26,4 +27,24 @@ jobs:
        
      - name: Print Hello from SHA
        run: echo "Hello from ${{ env. DEPlOY_VER }}"
+       
+  SecondJob:
+   runs-on: ubuntu-latest
+   needs: [FirstJOB]
+   env:
+    MONTH             : "June"
+   steps:
+   
+   - name: Print System date
+     run: date
+     env:
+      DAY_OF_THE_MONYH  : "16"
+      
+   - name: Variable`s content
+     run: "echo ${{ env.YEAR }} ${{ env.MONTH }} $${{ env.DAY_OF_THE_MONTH }} "
+
+    
+
+
+   
 

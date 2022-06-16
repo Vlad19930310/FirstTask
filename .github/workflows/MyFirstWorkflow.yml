@@ -16,6 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello
-        run: echo "Hello from {{ env.APPLICATION_NAME }} "
-l
+        run: echo "Hello from {{ env.APPLICATION_NAME }}"
 

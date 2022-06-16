@@ -23,7 +23,7 @@ jobs:
        run: ls -la
        
      - name: Content from log.txt
-       run: cat log.txt
+       run: cat Task1/log.txt
        
      - name: Print Hello from SHA
        run: echo "Hello from ${{ env. DEPlOY_VER }}"

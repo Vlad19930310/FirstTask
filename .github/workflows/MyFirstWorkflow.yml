@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: MyFirstAction
+env: 
+  APPLICATION_NAME: "MY Variable"
+  PACKAGE_NAME    : "DEPLOY_VER-${{ github.sha }}"
+  
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+    
+jobs:
+  FirstJOB:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello from {{ env.APPLICATION_NAME }} "
+l
+

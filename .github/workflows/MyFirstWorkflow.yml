@@ -3,7 +3,7 @@
 name: MyFirstAction
 env: 
   DEPlOY_VER    : "${{ github.sha }}"
-  
+  YEAR          : "2022"
 on:
   push:
     branches: [ "master" ]
@@ -14,6 +14,13 @@ jobs:
   FirstJOB:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello
-        run: echo "Hello from ${{ env. DEPlOY_VER }}"
+     
+     - name: Clone repo GITHUB
+       uses: actions/checkout@v1
+     
+     - name: List file in folder
+       run: ls -la
+
+     - name: Print Hello from SHA
+       run: echo "Hello from ${{ env. DEPlOY_VER }}"
 

@@ -21,6 +21,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run two-line script
         run: DEPLOY_VER=SHA
-             echo HEllo from $Vdeploy_ver
-             YEAR=2022
+             echo HEllo from $DEPLOY_VER
+           
+       
              

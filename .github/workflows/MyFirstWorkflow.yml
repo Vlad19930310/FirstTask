@@ -2,8 +2,7 @@
 
 name: MyFirstAction
 env: 
-  APPLICATION_NAME: "MY Variable"
-  PACKAGE_NAME    : "DEPLOY_VER-${{ github.sha }}"
+  DEPlOY_VER    : "${{ github.sha }}"
   
 on:
   push:
@@ -16,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello
-        run: echo "Hello from ${{ env.APPLICATION_NAME }}"
+        run: echo "Hello from ${{ env. DEPlOY_VER }}"
 

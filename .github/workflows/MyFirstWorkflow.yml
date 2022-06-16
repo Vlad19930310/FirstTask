@@ -38,7 +38,7 @@ jobs:
    - name: Print System date
      run: date
      env:
-      DAY_OF_THE_MONTH  : "16"
+      DAY_OF_THE_MONTH  : 16
       
    - name: Variable`s content
      run: "echo ${{ env.DAY_OF_THE_MONTH }} ${{ env.MONTH }} ${{ env.YEAR }} "

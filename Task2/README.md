@@ -3,7 +3,7 @@
 2. Create VPC 
 3. Create subnet
 4. Create security group
-5. Configure Route Table (Destination 0.0.0.0/0, Target<your Internet Gateway>)
+5. Configure Route Table (Destination 0.0.0.0/0, Target - your Internet Gateway )
 6. Create, Attach Internet Gateway
 7. Configure Inbound rules Security Groups: SSH:22, HTTP:80, ICMP IPv4
 8. Connect to Instances from client **_MobaExterm_**

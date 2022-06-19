@@ -15,5 +15,5 @@
 14. Check web page from host
 15. Check web page from Ubuntu instance ```sudo apt-get install curl wget lynx w3m elinks``` - utilti to display web page
 16. Put web page content to variable. Exemple: ``` page="$(curl http://34.228.59.210/) ```
-17. Print web page content in terminal **_echo $page_**
+17. Print web page content in terminal ```echo $page```
 18. The result is **http://34.228.59.210/**

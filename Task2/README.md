@@ -14,4 +14,4 @@
 14 Check web page from Ubuntu instance (sudo apt-get install curl wget lynx w3m elinks - utilti to display web page)
 15 Put web page content to variable (page="$(curl http://34.228.59.210/))" 
 16 Print web page content in terminal echo $page
-
+http://34.228.59.210/

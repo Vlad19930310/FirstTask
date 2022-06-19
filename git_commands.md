@@ -24,4 +24,5 @@ git --no-pager log > log.txt
 type log.txt
 git branch -D ZHALUDKOVICH-new_feature
 git push origin --delete ZHALUDKOVICH-new_feature
+git pull
 ```

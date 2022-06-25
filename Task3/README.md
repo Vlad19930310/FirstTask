@@ -6,4 +6,4 @@
 5. Create AWS account IAM with Administrator polices
 6. Create Terraform directory 
 7. Create terraform.tf file
-8. Configure terraform.tf: VPC; Internet Gateway; Public Subnet; Private Subnet;  Route table from Internet Gateway to Internet;
+8. Configure terraform.tf: VPC; Internet Gateway; Public Subnet; Private Subnet;\  Route table from Internet Gateway to Internet;

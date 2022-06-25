@@ -19,6 +19,7 @@ Second with private subnet; Securiry group with inbound and outbound rules ssh,i
 15. Connect to Ubuntu instance by SSH
 16. Put SSH key to ssh folder
 17. Connect to Red Hat instance by SSH from Ubuntu instance
-18. Install Nginx with custom web page
-19. Install ``curl`` to ubuntu 
-20. Get content from index.html(RedHat) from ubuntu using ```curl`` 
+18. Copy by ```scp``` Nginx package 
+19. Install Nginx with custom web page
+20. Install ``curl`` to ubuntu 
+21. Get content from index.html(RedHat) from ubuntu using ```curl`` 

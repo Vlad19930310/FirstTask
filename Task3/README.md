@@ -23,3 +23,4 @@ Second with private subnet; Securiry group with inbound and outbound rules ssh,i
 19. Install Nginx with custom web page
 20. Install ``curl`` to ubuntu 
 21. Get content from index.html(RedHat) from ubuntu using ```curl`` 
+22. ```52.90.241.73``` To check custom page Apache2

@@ -25,4 +25,5 @@ Second with private subnet; Securiry group with inbound and outbound rules ssh,i
 21. Start nginx ```sudo service nginx start```
 22. Edit ```index.htm``` from defalt directory
 23. Go back to ubuntu and check ```curl <nginxhost ip>``` content from web page 
+24. And you also can use ```.sh``` My Ex: ```installnginx.sh, installnginx2.sh```
 

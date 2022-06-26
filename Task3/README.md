@@ -18,11 +18,11 @@ Second with private subnet; Securiry group with inbound and outbound rules ssh,i
 14. Make ```terraform apply``` to create infrastructure
 15. Connect to Ubuntu instance by SSH
 16. Put SSH key to ssh folder
-17. Download rpm package from Nginx website to ubuntu servrer
-18. By scp command copy ```.rpm``` to RedHat My Ex: ```scp -i linux.pem nginx-1.22.0-1.el8.ngx.x86_64.rpm ec2-user@10.0.16.139:```
+17. Download ```rpm``` package from Nginx website to ubuntu servrer
+18. By ```scp``` command copy ```.rpm``` to RedHat My Ex: ```scp -i linux.pem nginx-1.22.0-1.el8.ngx.x86_64.rpm ec2-user@10.0.16.139:```
 19. Connect to RedHat from Ubuntu via ssh with ssh key
 20. Install nginx from package with ```rpm``` command My Ex:```sudo rpm -i nginx-1.22.0-1.el8.ngx.x86_64.rpm```
 21. Start nginx ```sudo service nginx start```
 22. Edit ```index.htm``` from defalt directory
-23. Go back to ubuntu and check curl <nginxhost ip> content from web page 
+23. Go back to ubuntu and check ```curl <nginxhost ip>``` content from web page 
 

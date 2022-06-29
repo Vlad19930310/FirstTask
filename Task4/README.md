@@ -26,6 +26,6 @@
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/7.png" width="200" />
 
 15. Change ```$DEVOPS``` variable ```vim ~/.bashrc``` and add variable in html page ```echo "<h2>$DEVOPS</h2>" /var/www/html/index.html```
-16. After restarting  conteiner variable will be changing  to ```ENV``` like in ```dockerfile``` and 
+16. After restarting  conteiner variable will be changing  to ```ENV``` like in ```dockerfile``` 
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/8.png" width="200" />
 

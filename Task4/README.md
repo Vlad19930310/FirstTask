@@ -29,3 +29,9 @@
 16. After restarting  conteiner variable will be changing  to ```ENV``` like in ```dockerfile``` 
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/8.png" width="200" />
 
+17. Login dockerhub in terminal
+18. Tag image MY EX: ```docker tag apache2_nginx81_80_devops1:latest vlad19930310/zhaludkovichdocker:apache_nginx```
+19. Push image to dockerhub MY EX: ```docker push vlad19930310/zhaludkovichdocker:apache_nginx```
+
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/9.png" width="200" />
+

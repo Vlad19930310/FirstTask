@@ -1,3 +1,4 @@
+# Task 4 Docker
 1. Install docker and run Hello world container by ```installdockerengine.sh``` script or by individual commands
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/1.png" width="200" />
 
@@ -18,4 +19,13 @@
 10. Commit your new image 
 11. Write all of the previos step in ```dockerfile```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/6.png" width="200" />
+
 12. Verify that all works
+13. Change ```dockerfile```: add ```ENV DEVOPS=Zhaludkovich```, add ```$DEVOPS``` to html page, install curl, vim
+14. Build new image and verify html page by ```curl```  or  ```env```
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/7.png" width="200" />
+
+15. Change ```$DEVOPS``` variable ```vim ~/.bashrc``` and add variable in html page ```echo "<h2>$DEVOPS</h2>" /var/www/html/index.html```
+16. After restarting  conteiner variable will be changing  to ```ENV``` like in ```dockerfile``` and 
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/8.png" width="200" />
+

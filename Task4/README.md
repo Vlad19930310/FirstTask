@@ -32,6 +32,13 @@
 17. Login dockerhub in terminal
 18. Tag image MY EX: ```docker tag apache2_nginx81_80_devops1:latest vlad19930310/zhaludkovichdocker:apache_nginx```
 19. Push image to dockerhub MY EX: ```docker push vlad19930310/zhaludkovichdocker:apache_nginx```
+https://hub.docker.com/repository/docker/vlad19930310/zhaludkovichdocker
 
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/9.png" width="200" />
+
+20. Create compouse.yml file and configure for run 3 images with Environment
+21. ```docker-compose build``` to verify
+22. ```docker-compose up``` run
+23. Inspect ip conteiners  ```docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id```
+24. Verify by curl content from containers
 

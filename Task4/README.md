@@ -42,5 +42,5 @@ https://hub.docker.com/repository/docker/vlad19930310/zhaludkovichdocker
 23. Inspect ip conteiners  ```docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id```
 24. Verify by curl content from containers
 
-<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/10.png"width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/10.png" width="200" />
 

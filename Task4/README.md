@@ -22,7 +22,7 @@
 
 12. Verify that all works
 13. Change ```dockerfile```: add ```ENV DEVOPS=Zhaludkovich```, add ```$DEVOPS``` to html page, install curl, vim
-14. Build new image and verify html page by ```curl```  or  ```env```
+14. Build new image and verify html page by ```curl```  and verify variable ```env```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task4/7.png" width="200" />
 
 15. Change ```$DEVOPS``` variable ```vim ~/.bashrc``` and add variable in html page ```echo "<h2>$DEVOPS</h2>" /var/www/html/index.html```

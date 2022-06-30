@@ -19,9 +19,16 @@ services:
       POSTGRES_PASSWORD: 1111
       POSTGRRES_DB: Zhaludkovich
     restart: always
-  web:
+  web1:
     build: .
-
+  web2: 
+    build: .
+  web3: 
+    build: .
+  web4: 
+    build: .
+  web5: 
+    build: .
 
 
 

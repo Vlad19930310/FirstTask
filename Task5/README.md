@@ -18,7 +18,7 @@
 8. Configure ```ansible.cfg```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task5/7.png" width="200" />
 
-9. Configure playbook ```yml``` file 
+9. Configure playbook ```yml``` file for installing docker
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task5/6.png" width="200" />
 
 10. Run ```sudo ansible-playbook docker.yml``` 

@@ -14,4 +14,4 @@ Detailed installing in ```install_zabbix.txt```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/1.png" width="200" />
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/2.png" width="200" />
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/3.png" width="200" />
-<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task5/4.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/4.png" width="200" />

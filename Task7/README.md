@@ -8,25 +8,10 @@
 ```ln -s /usr/share/zoneinfo/Europe/Minsk localtime```
 ```echo 'Europe/Minsk' > timezone```
 ```sudo docker network create zabbix-net```
-4. Run container with database (PostgresSql)
+4. Run 3 container ```database``` ```zabbix servr``` ```zabbix web server```
+Detailed installing in ```install_zabbix.txt```
 
-```sudo docker run -d \
---name zabbix-postgres \
---network zabbix-net \
--v /var/lib/zabbix/timezone:/etc/timezone \
--v /var/lib/zabbix/localtime:/etc/localtime \
--e POSTGRES_PASSWORD=zabbix \
--e POSTGRES_USER=zabbix postgres:alpine```
-
-5. Run container with Zabbix-server
-
-``` sudo docker run \
---name zabbix-server \
---network zabbix-net \
--v /var/lib/zabbix/alertscripts:/usr/lib/zabbix/alertscripts \
--v /var/lib/zabbix/timezone:/etc/timezone \
--v /var/lib/zabbix/localtime:/etc/localtime \
--p 10051:10051 -e DB_SERVER_HOST="zabbix-postgres" \
--e POSTGRES_USER="zabbix" \
--e POSTGRES_PASSWORD="zabbix" \
--d zabbix/zabbix-server-pgsql:alpine-latest ```
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/1.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/2.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/3.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task5/4.png" width="200" />

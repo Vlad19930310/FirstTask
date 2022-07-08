@@ -53,5 +53,5 @@ apt-get install zabbix-agent
 7) Troubleshooting problem with zabbix agent
 
 put ip addres host VM and ip addres docker container zabbix server in /etc/zabbix/zabbix_agentd.conf
-put in zabbix web configuration host tow configuration (2.png,3.png) 
+put in zabbix web configuration host two configuration (2.png,3.png) 
 

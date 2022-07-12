@@ -54,5 +54,6 @@ Detailed installing in ```install_zabbix.txt```
 
 6. For troubleshooting connections between grafana and elasticsearch, verify that all containers are in the same network
 7. Command: ```docker network connect YOUR_NETWORK YOUR_CONTAINER``` ```docker network disconnect YOUR_NETWORK YOUR_CONTAINER``` ```docker network inspect YOUR_NETWORK``` ```docker network ls```
+8. You can write code for deploying grafana in ```docker-compose.yml```
 
 

@@ -16,7 +16,7 @@ Detailed installing in ```install_zabbix.txt```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/3.png" width="200" />
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/4.png" width="200" />
 
-#ELK stack docker + log from docker 
+# ELK stack docker + log from docker 
 1. Create ```docker-compose.yml```, ```filebeat.yml```, logstash directory with ```logstash.conf```, test log ```inlog.log```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/7.png" width="200" />
 

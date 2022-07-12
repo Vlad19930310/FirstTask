@@ -48,5 +48,11 @@ Detailed installing in ```install_zabbix.txt```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/14.png" width="200" />
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/15.png" width="200" />
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/16.png" width="200" />
-3. Customize your dashboard
+
+5. Customize your dashboard
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/17.png" width="200" />
+
+6. For troubleshooting connections between grafana and elasticsearch, verify that all containers are in the same network
+7. Command: ```docker network connect YOUR_NETWORK YOUR_CONTAINER``` ```docker network disconnect YOUR_NETWORK YOUR_CONTAINER``` ```docker network inspect YOUR_NETWORK``` ```docker network ls```
+
+

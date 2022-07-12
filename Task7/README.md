@@ -35,3 +35,5 @@ Detailed installing in ```install_zabbix.txt```
 
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/10.png" width="200" />
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/11.png" width="200" />
+
+9. For opening port use ```firewall``` file

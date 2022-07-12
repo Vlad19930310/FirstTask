@@ -37,3 +37,16 @@ Detailed installing in ```install_zabbix.txt```
 <img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/11.png" width="200" />
 
 9. For opening port use ```firewall``` file
+
+# Grafana in docker
+1. Open 3000 port
+2. Run official docker image with grafana  ```docker run -d --name=grafana -p 3000:3000 grafana/grafana-enterprise``` 
+3. Check version of your environment(Ex:if elsricsearch 7.16 grafana 8.3.0 will not connect)
+4. Add data source: ip addres your elasticsearch, index
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/12.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/13.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/14.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/15.png" width="200" />
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/16.png" width="200" />
+3. Customize your dashboard
+<img src="https://github.com/Vlad19930310/FirstTask/blob/master/Task7/17.png" width="200" />

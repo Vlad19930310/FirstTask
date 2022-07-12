@@ -44,7 +44,7 @@ sudo docker run \
 -e POSTGRES_USER="zabbix" \
 -e POSTGRES_PASSWORD="zabbix" \
 -e ZBX_SERVER_HOST="zabbix-server" \
--e PHP_TZ="Asia/Tashkent" \
+-e PHP_TZ="Europe/Minsk" \
 -d zabbix/zabbix-web-nginx-pgsql:alpine-latest
 
 6) Install Zabbix-agent 
